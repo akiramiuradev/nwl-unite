@@ -1,5 +1,3 @@
-
-// array
 let participantes = [
  {
     nome: "Diego Fernandes",

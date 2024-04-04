@@ -60,6 +60,9 @@ let participantes = [
     dataCheckIn: new Date(2024, 3, 4, 21, 50)
   }
 ]
+
+participantes.sort((a, b) => b.dataInscricao - a.dataInscricao);
+
 const criarNovoParticipante = (participante) => {
   const dataInscricao = dayjs(Date.now()).to(participante.dataInscricao)
 
